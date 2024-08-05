@@ -48,7 +48,7 @@ longoBt.addEventListener('click', () => {
 function alterarContexto(contexto) {
     
     html.setAttribute('data-contexto', contexto);
-    banner.setAttribute('src', `/imagens/${contexto}.png`);
+    banner.setAttribute('src', `imagens/${contexto}.png`);
     switch (contexto) {
         case 'foco':
             titulo.innerHTML = `Otimize sua produtividade,<br><strong class="app__title-strong">mergulhe no que importa</strong>`;
